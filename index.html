@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Digital Reach Winner Picker</title>
+  <meta name="description" content="Dialog Digital Reach Winner Selection Platform Powered by Codechilli">
+  <meta name="author" content="Praba Ponnambalam">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="manifest" href="img/site.webmanifest">
+  <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="img/favicon.ico">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-config" content="img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/vaakash/socializer/80391a50/css/socializer.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body onload="reset();">
+  <div class="container">
+    <header>
+      <img src="img/reach_logo.png" alt="Digital Reach Logo">
+      <h1>Winner Selection Platform</h1>
+      <div id="notification"></div>
+    </header>
+    <article>
+      <div id="popdown">
+        <div id="names">
+          <textarea name="namesbox" id="namesbox" placeholder="Paste your number list here"></textarea>
+        </div>
+      </div>
+      <div id="values"></div>
+    </article>
+  </div>
+  <nav>
+    <ul class="buttons">
+      <!-- <li><button id="list" onclick="namelist();">Add Numbers</button></li> -->
+      <li><button id="go" onclick="go();">Pick</button></li>
+      <li><a href="index.html"><button id="reset" class="btn-reset">Reset</button></a></li>
+    </ul>
+  </nav>
+  
+  <footer>
+    <div class="socializer a sr-32px sr-circle sr-opacity sr-icon-grey sr-bg-none sr-pad"><span class="sr-shortlink"><a href="https://codechilli.lk" target="_blank" onclick="socializer_shortlink( event, this )" title="Short link"><i class="fa fa-link"></i></a></span><span class="sr-email"><a href="mailto:hello@codechilli.lk" target="_blank" title="Email"><i class="fa fa-envelope"></i></a></span><span class="sr-facebook"><a href="https://www.facebook.com/codechilli" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></span><span class="sr-twitter"><a href="https://www.twitter.com/codechilli" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></span><span class="sr-instagram"><a href="https://www.instagram.com/codechilli" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></span><span class="sr-github"><a href="https://github.com/prabapro" target="_blank" title="Github"><i class="fa fa-github"></i></a></span></div>
+  </footer>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="js/picker.js"></script>
+</body>
+</html>

@@ -1,0 +1,149 @@
+* {
+	outline: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	background-color: #fff;
+	color: #000;
+	font-size: 0.85em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	border-top:6px solid #bc4e9c;
+}
+
+.container {
+	width: 80%;
+	margin: 5rem auto 0;
+	height: auto;
+}
+
+button {
+	font-family: 'Roboto', sans-serif;
+	background-color: transparent;
+	color: green;
+	border: 1px solid;
+	padding: 3px 60px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 1.5em;
+	font-size: 1.5em;
+}
+
+button:hover {
+	background-color: green;
+	color: #fff;
+}
+
+.btn-reset {
+	color: red;
+	font-size: 0.8em;
+	padding: .3em 2em;
+	border-radius: 1.5em;
+	font-weight: 300;
+}
+
+.btn-reset:hover {
+	background-color: red;
+	color: #fff;
+}
+
+h1 {
+	font-size: 1.5em;
+	margin-top: 0;
+	margin-bottom: 2em;
+	font-weight: 400;
+}
+
+.small-alert-button {
+	background-color: transparent;
+	padding: 10px 30px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 1em;
+	border: 1px solid #fff;
+	border-radius: 1.5em;
+	font-weight: 300;
+}
+
+nav ul li {
+	list-style: none;
+	margin-top: 3em;
+}
+
+ul {
+	padding: 0;
+}
+
+textarea {
+	font-family: 'Roboto', sans-serif;
+	width: 300px;
+	min-height: 20vh;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-weight: 300;
+	font-size: 1em;
+	color: #333;
+	border: 1px solid #ccc;
+	padding: 1em;
+}
+
+footer {
+	bottom: 0.6em;
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+
+footer ul li {
+	display: inline;
+}
+
+#notification {
+	font-size: 2em;
+	font-weight: 400;
+}
+
+#values {
+	position: relative;
+	font-size: 400%;
+	margin: 0 auto;
+	z-index: 0
+}
+
+.name {
+	overflow: hidden;
+	display: block
+}
+
+#names {
+	display: block;
+	padding: 0;
+}
+
+.extra {
+	font-size: 16px;
+	margin-top: 20px
+}
+
+#result1 {
+	background: #bc4e9c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: #fff;
+	border-radius: 15px;
+	padding: 20px;
+	z-index: 10;
+	margin-top: -150px;
+	font-weight: 700;
+}
+
+#varnote {
+	font-size: 40px;
+	padding: 30px
+}
